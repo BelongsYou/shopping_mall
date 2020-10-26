@@ -13,4 +13,21 @@ public interface SiteCodeService {
      * 添加
      */
     DataMsg insertSiteCode(SiteCode code);
+
+    /**
+     * 删除
+     */
+    DataMsg deleteSiteCode(Integer id);
+
+    /**
+     * 修改
+     */
+    DataMsg updateSiteCode(SiteCode code);
+
+    /**
+     * 查询
+     */
+    DataMsg getSiteCode(Integer id);
+
+    DataMsg listSiteCode(SiteCode code);
 }
